@@ -40,19 +40,26 @@
   direction: rtl;
   text-align: center;
 }
-.allbooks{
-  display: flex;
-  flex-wrap:nowrap;
-  justify-content: space-evenly;
-  height: 30vh;
-  gap: 3%;
-} 
-.book{
-width: 20%;
-height: 18vh;
-border: solid 1px brown;
-}
-img{
-  width: 50px;
+.prodDrinks{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-evenly;
+  gap:2%;
+  height:60vh;
+  background-color:black;
+  width:35%;
+  margin-top:5%;
+  padding:5%;
+  margin-right:30%;
+
   
+}
+.drink{
+  flex-basis:40%;
+  height:auto;
+
+  text-align:center;
+  background-color:white;
+  
+
 }
