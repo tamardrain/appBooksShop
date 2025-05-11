@@ -74,22 +74,7 @@ const [user, setUser]=useState("")
     )
   }
   </div>
-{/* 
-<div className='book'>
-  <p></p>
-  <span></span>
-  <button type='button'>הוסף לסל</button>
-</div>
-<div className='book'>
-  <p></p>
-  <span></span>
-  <button type='button'>הוסף לסל</button>
-</div>
-<div className='book'>
-  <p></p>
-  <span></span>
-  <button type='button'>הוסף לסל</button>
-</div> */}
+
 
  { user=="manager" &&   <form>
 
